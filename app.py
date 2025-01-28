@@ -5,7 +5,7 @@ import random
 from datetime import datetime, timedelta
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'
+app.secret_key = '70a7f8ea1e4dd4e00b9a6196854b0750e7b32f5b631dc9ed51ea8e2c3f846105'
 
 # Temporary storage for OTP codes (use database in production)
 otp_storage = {}
